@@ -1,0 +1,53 @@
+name: Deploy USA Soccer Celebration Pack Website
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - apps/usa-soccer-celebrations/websites/**
+      - apps/usa-soccer-celebrations/assets/**
+      - apps/usa-soccer-celebrations/screenshots/**
+      - .github/workflows/deploy-usa-soccer-celebrations.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepare site artifact
+        run: |
+          mkdir -p _site
+          cp -R apps/usa-soccer-celebrations/websites/. _site/
+          mkdir -p _site/assets
+          cp -R apps/usa-soccer-celebrations/assets/. _site/assets/
+          mkdir -p _site/screenshots
+          cp -R apps/usa-soccer-celebrations/screenshots/. _site/screenshots/
+          perl -pi -e 's#../assets/#assets/#g; s#../screenshots/#screenshots/#g' _site/*.html
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
