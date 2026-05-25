@@ -12,9 +12,12 @@ Sticker pack app for iMessage.
 
 - Subtitle: `USA Soccer Fan Stickers`
 - App type: iMessage sticker pack
-- Website: [apps/usa-soccer-celebrations/websites](apps/usa-soccer-celebrations/websites)
-- Privacy statement: [apps/usa-soccer-celebrations/websites/privacy.html](apps/usa-soccer-celebrations/websites/privacy.html)
-- Support page: [apps/usa-soccer-celebrations/websites/support.html](apps/usa-soccer-celebrations/websites/support.html)
+- Live website: [https://singh-karanpal.github.io/product-assets/index.html](https://singh-karanpal.github.io/product-assets/index.html)
+- App Store Privacy Policy URL: [https://singh-karanpal.github.io/product-assets/privacy.html](https://singh-karanpal.github.io/product-assets/privacy.html)
+- App Store Support URL: [https://singh-karanpal.github.io/product-assets/support.html](https://singh-karanpal.github.io/product-assets/support.html)
+- Website source: [apps/usa-soccer-celebrations/websites](apps/usa-soccer-celebrations/websites)
+- Privacy statement source: [apps/usa-soccer-celebrations/websites/privacy.html](apps/usa-soccer-celebrations/websites/privacy.html)
+- Support page source: [apps/usa-soccer-celebrations/websites/support.html](apps/usa-soccer-celebrations/websites/support.html)
 - App details: [apps/usa-soccer-celebrations/README.md](apps/usa-soccer-celebrations/README.md)
 - App icon placeholder: [apps/usa-soccer-celebrations/assets/app-icon-placeholder.png](apps/usa-soccer-celebrations/assets/app-icon-placeholder.png)
 - Screenshots: [apps/usa-soccer-celebrations/screenshots](apps/usa-soccer-celebrations/screenshots)
@@ -63,7 +66,13 @@ product-assets/
 
 The website for USA Soccer Celebration Pack is deployed from `apps/usa-soccer-celebrations/websites` through the GitHub Actions workflow in `.github/workflows/deploy-usa-soccer-celebrations.yml`.
 
-After GitHub Pages is enabled for this public repository, use the deployed `support.html` URL for the App Store Support URL and the deployed `privacy.html` URL for the App Store Privacy Policy URL.
+Live pages:
+
+- Website: [https://singh-karanpal.github.io/product-assets/index.html](https://singh-karanpal.github.io/product-assets/index.html)
+- App Store Support URL: [https://singh-karanpal.github.io/product-assets/support.html](https://singh-karanpal.github.io/product-assets/support.html)
+- App Store Privacy Policy URL: [https://singh-karanpal.github.io/product-assets/privacy.html](https://singh-karanpal.github.io/product-assets/privacy.html)
+
+Use the support and privacy URLs above in App Store Connect.
 
 ## Copyright
 
