@@ -2,6 +2,18 @@
 
 Release history for USA Soccer Celebration Pack.
 
+## 1.1.0 - The Celebration Just Got Bigger
+
+NEW in this update:
+
+- Fresh city-inspired soccer fan stickers
+- New traveler-themed stickers for match adventures
+- More vibrant celebrations, confetti, and cheering reactions
+- Improved glossy sticker visuals and cleaner outlines
+- Expanded international soccer celebration vibes
+
+More stickers. More energy. More match-day fun.
+
 ## 1.0.0 - Initial Release
 
 - First release of USA Soccer Celebration Pack.
