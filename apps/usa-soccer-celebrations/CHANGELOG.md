@@ -2,6 +2,15 @@
 
 Release history for USA Soccer Celebration Pack.
 
+## 1.2.0 - Cleaner Stickers, Better Vibes
+
+- Improved sticker transparency for a cleaner dark mode experience
+- Enhanced glossy outlines and cleaner sticker edges
+- Better visual consistency across Messages themes
+- Polished sticker appearance for smoother chats
+
+Cleaner stickers. Better vibes. More match-day fun.
+
 ## 1.1.0 - The Celebration Just Got Bigger
 
 NEW in this update:

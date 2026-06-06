@@ -15,8 +15,8 @@ USA Soccer Celebration Pack is an independent fan sticker pack for iMessage. It 
 - Privacy Policy URL: `https://singh-karanpal.github.io/product-assets/privacy.html`
 - App icon: placeholder is stored at [assets/app-icon-placeholder.png](assets/app-icon-placeholder.png); replace with the final exported app icon when ready
 - Promotional text: `New stickers added regularly! Celebrate every USA soccer moment with original fan art made for iMessage. No ads, no data collection.`
-- Current version: `1.1`
-- What's New for version 1.1: `The celebration just got bigger - fresh city-inspired stickers, traveler-themed match adventure stickers, more vibrant celebrations, improved glossy visuals, and expanded international soccer celebration vibes.`
+- Current version: `1.2`
+- What's New for version 1.2: `Improved sticker transparency for a cleaner dark mode experience, enhanced glossy outlines and cleaner sticker edges, better visual consistency across Messages themes, and polished sticker appearance for smoother chats.`
 
 ## Description
 
