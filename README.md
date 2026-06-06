@@ -12,6 +12,7 @@ Sticker pack app for iMessage.
 
 - Subtitle: `USA Soccer Fan Stickers`
 - App type: iMessage sticker pack
+- App Store URL: [https://apps.apple.com/app/usa-soccer-celebration-pack/id6773508566](https://apps.apple.com/app/usa-soccer-celebration-pack/id6773508566)
 - Live website: [https://singh-karanpal.github.io/product-assets/index.html](https://singh-karanpal.github.io/product-assets/index.html)
 - App Store Privacy Policy URL: [https://singh-karanpal.github.io/product-assets/privacy.html](https://singh-karanpal.github.io/product-assets/privacy.html)
 - App Store Support URL: [https://singh-karanpal.github.io/product-assets/support.html](https://singh-karanpal.github.io/product-assets/support.html)

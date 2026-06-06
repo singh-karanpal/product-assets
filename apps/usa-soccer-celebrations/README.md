@@ -9,6 +9,7 @@ USA Soccer Celebration Pack is an independent fan sticker pack for iMessage. It 
 - App name: `USA Soccer Celebration Pack`
 - Subtitle: `USA Soccer Fan Stickers`
 - App type: iMessage sticker pack
+- App Store URL: `https://apps.apple.com/app/usa-soccer-celebration-pack/id6773508566`
 - Website URL: `https://singh-karanpal.github.io/product-assets/index.html`
 - Support URL: `https://singh-karanpal.github.io/product-assets/support.html`
 - Privacy Policy URL: `https://singh-karanpal.github.io/product-assets/privacy.html`
